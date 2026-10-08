@@ -1,6 +1,6 @@
 {
   "name": "bank-of-sierra-leone-exchange-rate",
-  "version": "1.3.5",
+  "version": "1.3.6",
   "description": "Official Bank of Sierra Leone (Sierra Leone) daily exchange rates — 24 currencies vs SLE, history since 2026. Zero-dependency Node.js/TypeScript client.",
   "keywords": [
     "bsl",
