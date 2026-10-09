@@ -4,6 +4,8 @@
 [![license](https://img.shields.io/npm/l/bank-of-sierra-leone-exchange-rate.svg)](https://github.com/AllRates-Today/bank-of-sierra-leone-exchange-rate/blob/main/LICENSE)
 [![zero dependencies](https://img.shields.io/badge/dependencies-0-brightgreen.svg)](https://www.npmjs.com/package/bank-of-sierra-leone-exchange-rate)
 [![TypeScript](https://img.shields.io/badge/TypeScript-types%20included-3178C6.svg)](https://www.typescriptlang.org/)
+[![USD/SLE today](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fallratestoday.com%2Fapi%2Fopen%2Fcentral-bank%2Fbsl%3Fsource%3DUSD%26target%3DSLE&query=%24.rate&label=USD%2FSLE%20published%20by%20Bank%20of%20Sierra%20Leone&color=0A7E8C&cacheSeconds=3600)](https://allratestoday.com/central-bank-rates-api/bsl/)
+[![rate date](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fallratestoday.com%2Fapi%2Fopen%2Fcentral-bank%2Fbsl%3Fsource%3DUSD%26target%3DSLE&query=%24.rate_date&label=rate%20date&color=555&cacheSeconds=3600)](https://allratestoday.com/central-bank-rates-api/bsl/)
 
 **Official Bank of Sierra Leone (Sierra Leone) daily exchange rates for Node.js and TypeScript. The published central bank rates behind tax filings, customs valuations, audits, and compliant invoicing — not market estimates, but the numbers Bank of Sierra Leone itself prints, every business day.**
 
@@ -32,6 +34,42 @@ console.log(r.rate_date, r.rates.length); // the central bank's latest published
 ```
 
 The open endpoint serves the *latest* table only and asks for a visible attribution link. The client below uses the keyed API, which adds point-in-time tables, history, and CSV/XML/Excel output.
+
+## 📈 Latest published table
+
+Today's full Bank of Sierra Leone table, straight from the central bank's latest publication. On GitHub it is refreshed by [a daily Action](.github/workflows/daily-table.yml) that reads the keyless endpoint above and commits only when the central bank publishes a new table; the copy on npm is as of the package's publish date.
+
+<!-- daily-table:start -->
+Published **2026-10-08** by Bank of Sierra Leone — 23 rates. Updated 2026-10-08.
+
+| Base | Quote | Type | Rate |
+| --- | --- | --- | ---: |
+| AED | SLE | reference | 6.2137 |
+| AUD | SLE | reference | 15.8704 |
+| CAD | SLE | reference | 16.0075 |
+| CHF | SLE | reference | 27.3671 |
+| CNY | SLE | reference | 3.4047 |
+| CVE | SLE | reference | 0.2342 |
+| DKK | SLE | reference | 3.4159 |
+| EUR | SLE | reference | 25.5315 |
+| GBP | SLE | reference | 30.1093 |
+| GHS | SLE | reference | 1.9423 |
+| GMD | SLE | reference | 0.3184 |
+| HKD | SLE | reference | 2.908 |
+| JPY | SLE | reference | 0.1442 |
+| KWD | SLE | reference | 73.8698 |
+| LRD | SLE | reference | 0.134 |
+| NGN | SLE | reference | 0.0172 |
+| NOK | SLE | reference | 2.386 |
+| SAR | SLE | reference | 6.0788 |
+| SEK | SLE | reference | 2.2808 |
+| USD | SLE | reference | 22.8196 |
+| XDR | SLE | reference | 30.8567 |
+| XOF | SLE | reference | 0.0394 |
+| ZAR | SLE | reference | 1.3703 |
+
+Source: [Official rates published by BSL, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/bsl/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
+<!-- daily-table:end -->
 
 ## 🔑 Get your API key
 
