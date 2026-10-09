@@ -40,33 +40,33 @@ The open endpoint serves the *latest* table only and asks for a visible attribut
 Today's full Bank of Sierra Leone table, straight from the central bank's latest publication. On GitHub it is refreshed by [a daily Action](.github/workflows/daily-table.yml) that reads the keyless endpoint above and commits only when the central bank publishes a new table; the copy on npm is as of the package's publish date.
 
 <!-- daily-table:start -->
-Published **2026-10-08** by Bank of Sierra Leone — 23 rates. Updated 2026-10-08.
+Published **2026-10-09** by Bank of Sierra Leone — 23 rates. Updated 2026-10-09.
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AED | SLE | reference | 6.2137 |
-| AUD | SLE | reference | 15.8704 |
-| CAD | SLE | reference | 16.0075 |
-| CHF | SLE | reference | 27.3671 |
-| CNY | SLE | reference | 3.4047 |
-| CVE | SLE | reference | 0.2342 |
-| DKK | SLE | reference | 3.4159 |
-| EUR | SLE | reference | 25.5315 |
-| GBP | SLE | reference | 30.1093 |
-| GHS | SLE | reference | 1.9423 |
-| GMD | SLE | reference | 0.3184 |
-| HKD | SLE | reference | 2.908 |
-| JPY | SLE | reference | 0.1442 |
-| KWD | SLE | reference | 73.8698 |
+| AED | SLE | reference | 6.2203 |
+| AUD | SLE | reference | 15.9408 |
+| CAD | SLE | reference | 16.0576 |
+| CHF | SLE | reference | 27.4893 |
+| CNY | SLE | reference | 3.413 |
+| CVE | SLE | reference | 0.2323 |
+| DKK | SLE | reference | 3.4286 |
+| EUR | SLE | reference | 25.6303 |
+| GBP | SLE | reference | 30.2437 |
+| GHS | SLE | reference | 1.9374 |
+| GMD | SLE | reference | 0.3124 |
+| HKD | SLE | reference | 2.9108 |
+| JPY | SLE | reference | 0.1445 |
+| KWD | SLE | reference | 78.2503 |
 | LRD | SLE | reference | 0.134 |
 | NGN | SLE | reference | 0.0172 |
-| NOK | SLE | reference | 2.386 |
-| SAR | SLE | reference | 6.0788 |
-| SEK | SLE | reference | 2.2808 |
-| USD | SLE | reference | 22.8196 |
-| XDR | SLE | reference | 30.8567 |
-| XOF | SLE | reference | 0.0394 |
-| ZAR | SLE | reference | 1.3703 |
+| NOK | SLE | reference | 2.3866 |
+| SAR | SLE | reference | 6.0851 |
+| SEK | SLE | reference | 2.2933 |
+| USD | SLE | reference | 22.8427 |
+| XDR | SLE | reference | 30.8788 |
+| XOF | SLE | reference | 0.0391 |
+| ZAR | SLE | reference | 1.3815 |
 
 Source: [Official rates published by BSL, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/bsl/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
 <!-- daily-table:end -->
