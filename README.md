@@ -40,7 +40,7 @@ The open endpoint serves the *latest* table only and asks for a visible attribut
 Today's full Bank of Sierra Leone table, straight from the central bank's latest publication. On GitHub it is refreshed by [a daily Action](.github/workflows/daily-table.yml) that reads the keyless endpoint above and commits only when the central bank publishes a new table; the copy on npm is as of the package's publish date.
 
 <!-- daily-table:start -->
-Published **2026-10-09** by Bank of Sierra Leone — 23 rates. Updated 2026-10-09.
+Published **2026-10-09** by Bank of Sierra Leone — 24 rates. Updated 2026-10-12.
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
@@ -55,6 +55,7 @@ Published **2026-10-09** by Bank of Sierra Leone — 23 rates. Updated 2026-10-0
 | GBP | SLE | reference | 30.2437 |
 | GHS | SLE | reference | 1.9374 |
 | GMD | SLE | reference | 0.3124 |
+| GNF | SLE | reference | 0.0667 |
 | HKD | SLE | reference | 2.9108 |
 | JPY | SLE | reference | 0.1445 |
 | KWD | SLE | reference | 78.2503 |
@@ -123,10 +124,10 @@ const pair = await getRate('USD', 'SLE', { apiKey: 'art_live_...' });
 {
   bank: 'bsl',
   name: 'Bank of Sierra Leone',
-  rate_date: '2026-10-08',   // Bank of Sierra Leone's own publication date
+  rate_date: '2026-10-09',   // Bank of Sierra Leone's own publication date
   source: 'USD',
   target: 'SLE',
-  rate: 22.8196,
+  rate: 22.8427,
   rate_type: 'reference',
   derived: false,
   method: 'published',
@@ -151,9 +152,9 @@ console.log(table.rate_date, table.rates.length);
 {
   bank: 'bsl',
   name: 'Bank of Sierra Leone',
-  rate_date: '2026-10-08',
+  rate_date: '2026-10-09',
   rates: [
-    { "base": "USD", "quote": "SLE", "type": "reference", "value": 22.8196 },
+    { "base": "USD", "quote": "SLE", "type": "reference", "value": 22.8427 },
     // … the rest of the published table (24 currencies vs SLE)
   ],
   disclaimer: '…'
@@ -193,7 +194,7 @@ Paid plans. One resolved rate per publication date — ready for charting, reval
 import { getHistory } from 'bank-of-sierra-leone-exchange-rate';
 
 const series = await getHistory(
-  { source: 'USD', target: 'SLE', from: '2026-01-01', to: '2026-10-08' },
+  { source: 'USD', target: 'SLE', from: '2026-01-01', to: '2026-10-09' },
   { apiKey: 'art_live_...' }
 );
 ```
@@ -206,11 +207,11 @@ const series = await getHistory(
   source: 'USD',
   target: 'SLE',
   from: '2026-01-01',
-  to: '2026-10-08',
+  to: '2026-10-09',
   count: 152,
   rates: [
     // one entry per publication date
-    { date: '2026-10-08', rate: 22.8196, rate_type: 'reference', derived: false, method: 'published' },
+    { date: '2026-10-09', rate: 22.8427, rate_type: 'reference', derived: false, method: 'published' },
     // …
   ],
   disclaimer: '…'
@@ -260,6 +261,7 @@ curl "https://allratestoday.com/api/v1/central-bank/bsl/latest?format=xml&api_ke
 - MCP server: `npx -y @allratestoday/central-bank-mcp` (stdio) or the hosted endpoint `https://allratestoday.com/api/mcp` — tools for official rates, history, cross-bank comparison and publication calendars
 - Already using the general SDK or MCP server? Since 2026-10-01 [`@allratestoday/sdk`](https://www.npmjs.com/package/@allratestoday/sdk) 1.4+ has `officialRates('bsl')` and [`@allratestoday/mcp-server`](https://www.npmjs.com/package/@allratestoday/mcp-server) 0.6+ has a `get_official_rates` tool — both return this source's latest table with no key, so you can add it without a second dependency
 - Claude Code plugin (no key): `/plugin marketplace add AllRates-Today/claude-code-plugin` then `/plugin install allratestoday@allratestoday` — bundles both MCP servers plus an `/official-rate bsl ...` command
+- Need dated tables or history for an evaluation? Agents can self-issue a trial key with no signup: `POST https://allratestoday.com/api/agent/keys` (send `Content-Type: application/json`) returns a 100-call key valid 7 days; the MCP servers expose it as `request_trial_key`
 - Machine-readable site guide: [llms.txt](https://allratestoday.com/llms.txt) · [for-ai-agents](https://allratestoday.com/for-ai-agents/)
 
 ## ⚖️ Published vs derived rates
