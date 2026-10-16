@@ -42,34 +42,33 @@ The open endpoint serves the *latest* table only and asks for a visible attribut
 The image is rendered live from the keyless endpoint above, so it follows the central bank's publications on npm and on GitHub alike without a new release. The text copy below is there for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
 
 <!-- daily-table:start -->
-Published **2026-10-15** by Bank of Sierra Leone — 24 rates. Updated 2026-10-15.
+Published **2026-10-16** by Bank of Sierra Leone — 23 rates. Updated 2026-10-16.
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AED | SLE | reference | 6.2215 |
-| AUD | SLE | reference | 15.8349 |
-| CAD | SLE | reference | 16.0939 |
-| CHF | SLE | reference | 27.539 |
-| CNY | SLE | reference | 3.4146 |
-| CVE | SLE | reference | 0.2318 |
-| DKK | SLE | reference | 3.4286 |
-| EUR | SLE | reference | 25.631 |
-| GBP | SLE | reference | 30.2985 |
-| GHS | SLE | reference | 1.9514 |
-| GMD | SLE | reference | 0.3149 |
-| GNF | SLE | reference | 0.0666 |
-| HKD | SLE | reference | 2.912 |
-| JPY | SLE | reference | 0.1448 |
-| KWD | SLE | reference | 78.3919 |
-| LRD | SLE | reference | 0.1337 |
-| NGN | SLE | reference | 0.0171 |
-| NOK | SLE | reference | 2.4008 |
-| SAR | SLE | reference | 6.0895 |
-| SEK | SLE | reference | 2.2914 |
-| USD | SLE | reference | 22.8521 |
-| XDR | SLE | reference | 30.9143 |
+| AED | SLE | reference | 6.2254 |
+| AUD | SLE | reference | 15.9173 |
+| CAD | SLE | reference | 16.1492 |
+| CHF | SLE | reference | 27.7679 |
+| CNY | SLE | reference | 3.419 |
+| CVE | SLE | reference | 0.2323 |
+| DKK | SLE | reference | 3.4428 |
+| EUR | SLE | reference | 25.7348 |
+| GBP | SLE | reference | 30.4906 |
+| GHS | SLE | reference | 1.9616 |
+| GMD | SLE | reference | 0.3123 |
+| HKD | SLE | reference | 2.9134 |
+| JPY | SLE | reference | 0.1447 |
+| KWD | SLE | reference | 78.8889 |
+| LRD | SLE | reference | 0.1339 |
+| NGN | SLE | reference | 0.0172 |
+| NOK | SLE | reference | 2.4209 |
+| SAR | SLE | reference | 6.0924 |
+| SEK | SLE | reference | 2.3127 |
+| USD | SLE | reference | 22.8642 |
+| XDR | SLE | reference | 30.9581 |
 | XOF | SLE | reference | 0.039 |
-| ZAR | SLE | reference | 1.3828 |
+| ZAR | SLE | reference | 1.3919 |
 
 Source: [Official rates published by BSL, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/bsl/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
 <!-- daily-table:end -->
@@ -263,7 +262,7 @@ curl "https://allratestoday.com/api/v1/central-bank/bsl/latest?format=xml&api_ke
 - MCP server: `npx -y @allratestoday/central-bank-mcp` (stdio) or the hosted endpoint `https://allratestoday.com/api/mcp` — tools for official rates, history, cross-bank comparison and publication calendars
 - Already using the general SDK or MCP server? Since 2026-10-01 [`@allratestoday/sdk`](https://www.npmjs.com/package/@allratestoday/sdk) 1.4+ has `officialRates('bsl')` and [`@allratestoday/mcp-server`](https://www.npmjs.com/package/@allratestoday/mcp-server) 0.6+ has a `get_official_rates` tool — both return this source's latest table with no key, so you can add it without a second dependency
 - Claude Code plugin (no key): `/plugin marketplace add AllRates-Today/claude-code-plugin` then `/plugin install allratestoday@allratestoday` — bundles both MCP servers plus an `/official-rate bsl ...` command
-- Need dated tables or history for an evaluation? Agents can self-issue a trial key with no signup: `POST https://allratestoday.com/api/agent/keys` (send `Content-Type: application/json`) returns a 100-call key valid 7 days; the MCP servers expose it as `request_trial_key`
+- Evaluating? Agents can self-issue a trial key with no signup: `POST https://allratestoday.com/api/agent/keys` (send `Content-Type: application/json`) returns a 100-call key valid 7 days that covers the free-plan methods (latest table, pairs); dated tables and history need a [paid plan](https://allratestoday.com/pricing/). The MCP servers expose it as `request_trial_key`
 - Machine-readable site guide: [llms.txt](https://allratestoday.com/llms.txt) · [for-ai-agents](https://allratestoday.com/for-ai-agents/)
 
 ## ⚖️ Published vs derived rates
