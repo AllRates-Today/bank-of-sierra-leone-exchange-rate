@@ -47,34 +47,33 @@ The image is rendered live from the keyless endpoint above, so it follows the ce
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-10-19 by Bank of Sierra Leone — 24 rates. Updated 2026-10-20.</summary>
+<summary>Table as text: published 2026-10-20 by Bank of Sierra Leone — 23 rates. Updated 2026-10-20.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AED | SLE | reference | 6.2234 |
-| AUD | SLE | reference | 15.9455 |
-| CAD | SLE | reference | 16.215 |
-| CHF | SLE | reference | 27.7287 |
-| CNY | SLE | reference | 3.4203 |
-| CVE | SLE | reference | 0.2323 |
-| DKK | SLE | reference | 3.4278 |
-| EUR | SLE | reference | 25.6235 |
-| GBP | SLE | reference | 30.4599 |
-| GHS | SLE | reference | 1.9616 |
-| GMD | SLE | reference | 0.3123 |
-| GNF | SLE | reference | 0.0665 |
-| HKD | SLE | reference | 2.9122 |
-| JPY | SLE | reference | 0.1445 |
-| KWD | SLE | reference | 78.8096 |
+| AED | SLE | reference | 6.218 |
+| AUD | SLE | reference | 15.9733 |
+| CAD | SLE | reference | 16.2461 |
+| CHF | SLE | reference | 27.6922 |
+| CNY | SLE | reference | 3.4189 |
+| CVE | SLE | reference | 0.2332 |
+| DKK | SLE | reference | 3.4265 |
+| EUR | SLE | reference | 25.6119 |
+| GBP | SLE | reference | 30.4794 |
+| GHS | SLE | reference | 1.959 |
+| GMD | SLE | reference | 0.3149 |
+| HKD | SLE | reference | 2.91 |
+| JPY | SLE | reference | 0.1444 |
+| KWD | SLE | reference | 78.86 |
 | LRD | SLE | reference | 0.1339 |
 | NGN | SLE | reference | 0.0172 |
-| NOK | SLE | reference | 2.4257 |
-| SAR | SLE | reference | 6.0899 |
-| SEK | SLE | reference | 2.3059 |
-| USD | SLE | reference | 22.8558 |
-| XDR | SLE | reference | 31.0039 |
-| XOF | SLE | reference | 0.039 |
-| ZAR | SLE | reference | 1.3873 |
+| NOK | SLE | reference | 2.4324 |
+| SAR | SLE | reference | 6.0883 |
+| SEK | SLE | reference | 2.3046 |
+| USD | SLE | reference | 22.8387 |
+| XDR | SLE | reference | 30.9807 |
+| XOF | SLE | reference | 0.0392 |
+| ZAR | SLE | reference | 1.3894 |
 
 </details>
 
