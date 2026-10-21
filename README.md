@@ -37,7 +37,7 @@ const r = await fetch('https://allratestoday.com/api/open/central-bank/bsl').the
 console.log(r.rate_date, r.rates.length); // the central bank's latest published table, no key
 ```
 
-The open endpoint serves the *latest* table only (JSON by default; add `?format=csv`, `xml` or `xlsx` for a file) and asks for a visible attribution link. The client below uses the keyed API, which adds point-in-time tables and history.
+The open endpoint serves the *latest* table only (JSON by default; add `?format=csv`, `xml` or `xlsx` for a file) and is free to use with a visible, followable link where the rates are shown: `<a href="https://allratestoday.com">Exchange rates by AllRatesToday</a>` (terms: <https://allratestoday.com/terms/#attribution>). The client below uses the keyed API, which adds point-in-time tables and history; with a key the link is appreciated, not required.
 
 ## 📈 Latest published table
 
@@ -47,33 +47,33 @@ The image is rendered live from the keyless endpoint above, so it follows the ce
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-10-20 by Bank of Sierra Leone — 23 rates. Updated 2026-10-20.</summary>
+<summary>Table as text: published 2026-10-21 by Bank of Sierra Leone — 23 rates. Updated 2026-10-21.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AED | SLE | reference | 6.218 |
-| AUD | SLE | reference | 15.9733 |
-| CAD | SLE | reference | 16.2461 |
-| CHF | SLE | reference | 27.6922 |
-| CNY | SLE | reference | 3.4189 |
-| CVE | SLE | reference | 0.2332 |
-| DKK | SLE | reference | 3.4265 |
-| EUR | SLE | reference | 25.6119 |
-| GBP | SLE | reference | 30.4794 |
-| GHS | SLE | reference | 1.959 |
-| GMD | SLE | reference | 0.3149 |
-| HKD | SLE | reference | 2.91 |
-| JPY | SLE | reference | 0.1444 |
-| KWD | SLE | reference | 78.86 |
-| LRD | SLE | reference | 0.1339 |
-| NGN | SLE | reference | 0.0172 |
-| NOK | SLE | reference | 2.4324 |
-| SAR | SLE | reference | 6.0883 |
-| SEK | SLE | reference | 2.3046 |
-| USD | SLE | reference | 22.8387 |
-| XDR | SLE | reference | 30.9807 |
-| XOF | SLE | reference | 0.0392 |
-| ZAR | SLE | reference | 1.3894 |
+| AED | SLE | reference | 6.212 |
+| AUD | SLE | reference | 16.0293 |
+| CAD | SLE | reference | 16.2354 |
+| CHF | SLE | reference | 27.6531 |
+| CNY | SLE | reference | 3.4174 |
+| CVE | SLE | reference | 0.2327 |
+| DKK | SLE | reference | 3.4242 |
+| EUR | SLE | reference | 25.5938 |
+| GBP | SLE | reference | 30.5526 |
+| GHS | SLE | reference | 1.9593 |
+| GMD | SLE | reference | 0.3186 |
+| HKD | SLE | reference | 2.9076 |
+| JPY | SLE | reference | 0.1443 |
+| KWD | SLE | reference | 79.0493 |
+| LRD | SLE | reference | 0.134 |
+| NGN | SLE | reference | 0.0171 |
+| NOK | SLE | reference | 2.4323 |
+| SAR | SLE | reference | 6.0819 |
+| SEK | SLE | reference | 2.3031 |
+| USD | SLE | reference | 22.8166 |
+| XDR | SLE | reference | 30.9096 |
+| XOF | SLE | reference | 0.0391 |
+| ZAR | SLE | reference | 1.3895 |
 
 </details>
 
