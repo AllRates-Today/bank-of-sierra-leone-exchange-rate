@@ -47,34 +47,34 @@ The image is rendered live from the keyless endpoint above, so it follows the ce
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-10-22 by Bank of Sierra Leone — 24 rates. Updated 2026-10-22.</summary>
+<summary>Table as text: published 2026-10-23 by Bank of Sierra Leone — 24 rates. Updated 2026-10-23.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AED | SLE | reference | 6.2083 |
-| AUD | SLE | reference | 16.0042 |
-| CAD | SLE | reference | 16.2664 |
-| CHF | SLE | reference | 27.7817 |
-| CNY | SLE | reference | 3.417 |
-| CVE | SLE | reference | 0.2323 |
-| DKK | SLE | reference | 3.4283 |
-| EUR | SLE | reference | 25.6266 |
-| GBP | SLE | reference | 30.5751 |
-| GHS | SLE | reference | 1.9679 |
-| GMD | SLE | reference | 0.3173 |
-| GNF | SLE | reference | 0.0664 |
-| HKD | SLE | reference | 2.9074 |
-| JPY | SLE | reference | 0.1451 |
-| KWD | SLE | reference | 79.1077 |
-| LRD | SLE | reference | 0.1339 |
+| AED | SLE | reference | 6.211 |
+| AUD | SLE | reference | 16.0017 |
+| CAD | SLE | reference | 16.2848 |
+| CHF | SLE | reference | 27.734 |
+| CNY | SLE | reference | 3.4198 |
+| CVE | SLE | reference | 0.2324 |
+| DKK | SLE | reference | 3.4165 |
+| EUR | SLE | reference | 25.5385 |
+| GBP | SLE | reference | 30.5185 |
+| GHS | SLE | reference | 1.9577 |
+| GMD | SLE | reference | 0.3183 |
+| GNF | SLE | reference | 0.0663 |
+| HKD | SLE | reference | 2.9092 |
+| JPY | SLE | reference | 0.1456 |
+| KWD | SLE | reference | 78.9612 |
+| LRD | SLE | reference | 0.1338 |
 | NGN | SLE | reference | 0.0171 |
-| NOK | SLE | reference | 2.4368 |
+| NOK | SLE | reference | 2.4393 |
 | SAR | SLE | reference | 6.0777 |
-| SEK | SLE | reference | 2.3045 |
-| USD | SLE | reference | 22.8011 |
-| XDR | SLE | reference | 30.9206 |
-| XOF | SLE | reference | 0.039 |
-| ZAR | SLE | reference | 1.3842 |
+| SEK | SLE | reference | 2.2954 |
+| USD | SLE | reference | 22.8133 |
+| XDR | SLE | reference | 30.9348 |
+| XOF | SLE | reference | 0.0391 |
+| ZAR | SLE | reference | 1.3768 |
 
 </details>
 
