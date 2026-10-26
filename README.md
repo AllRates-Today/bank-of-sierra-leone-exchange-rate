@@ -47,34 +47,34 @@ The image is rendered live from the keyless endpoint above, so it follows the ce
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-10-23 by Bank of Sierra Leone — 24 rates. Updated 2026-10-23.</summary>
+<summary>Table as text: published 2026-10-26 by Bank of Sierra Leone — 24 rates. Updated 2026-10-26.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AED | SLE | reference | 6.211 |
-| AUD | SLE | reference | 16.0017 |
-| CAD | SLE | reference | 16.2848 |
-| CHF | SLE | reference | 27.734 |
-| CNY | SLE | reference | 3.4198 |
-| CVE | SLE | reference | 0.2324 |
-| DKK | SLE | reference | 3.4165 |
-| EUR | SLE | reference | 25.5385 |
-| GBP | SLE | reference | 30.5185 |
-| GHS | SLE | reference | 1.9577 |
-| GMD | SLE | reference | 0.3183 |
-| GNF | SLE | reference | 0.0663 |
+| AED | SLE | reference | 6.214 |
+| AUD | SLE | reference | 16.0591 |
+| CAD | SLE | reference | 16.2853 |
+| CHF | SLE | reference | 27.6343 |
+| CNY | SLE | reference | 3.4222 |
+| CVE | SLE | reference | 0.2317 |
+| DKK | SLE | reference | 3.4237 |
+| EUR | SLE | reference | 25.5915 |
+| GBP | SLE | reference | 30.4641 |
+| GHS | SLE | reference | 1.9563 |
+| GMD | SLE | reference | 0.3177 |
+| GNF | SLE | reference | 0.0665 |
 | HKD | SLE | reference | 2.9092 |
-| JPY | SLE | reference | 0.1456 |
-| KWD | SLE | reference | 78.9612 |
-| LRD | SLE | reference | 0.1338 |
-| NGN | SLE | reference | 0.0171 |
-| NOK | SLE | reference | 2.4393 |
-| SAR | SLE | reference | 6.0777 |
-| SEK | SLE | reference | 2.2954 |
-| USD | SLE | reference | 22.8133 |
-| XDR | SLE | reference | 30.9348 |
-| XOF | SLE | reference | 0.0391 |
-| ZAR | SLE | reference | 1.3768 |
+| JPY | SLE | reference | 0.1451 |
+| KWD | SLE | reference | 78.8204 |
+| LRD | SLE | reference | 0.1337 |
+| NGN | SLE | reference | 0.017 |
+| NOK | SLE | reference | 2.4419 |
+| SAR | SLE | reference | 6.0811 |
+| SEK | SLE | reference | 2.2973 |
+| USD | SLE | reference | 22.8221 |
+| XDR | SLE | reference | 30.9331 |
+| XOF | SLE | reference | 0.0389 |
+| ZAR | SLE | reference | 1.3775 |
 
 </details>
 
