@@ -47,33 +47,33 @@ The image is rendered live from the keyless endpoint above, so it follows the ce
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-10-27 by Bank of Sierra Leone — 23 rates. Updated 2026-10-27.</summary>
+<summary>Table as text: published 2026-10-28 by Bank of Sierra Leone — 23 rates. Updated 2026-10-28.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AED | SLE | reference | 6.2158 |
-| AUD | SLE | reference | 16.0418 |
-| CAD | SLE | reference | 16.284 |
-| CHF | SLE | reference | 27.558 |
-| CNY | SLE | reference | 3.4238 |
-| CVE | SLE | reference | 0.2316 |
-| DKK | SLE | reference | 3.4062 |
-| EUR | SLE | reference | 25.4588 |
-| GBP | SLE | reference | 30.4144 |
+| AED | SLE | reference | 6.21 |
+| AUD | SLE | reference | 16.0439 |
+| CAD | SLE | reference | 16.2251 |
+| CHF | SLE | reference | 27.4679 |
+| CNY | SLE | reference | 3.4213 |
+| CVE | SLE | reference | 0.2328 |
+| DKK | SLE | reference | 3.3942 |
+| EUR | SLE | reference | 25.3705 |
+| GBP | SLE | reference | 30.319 |
 | GHS | SLE | reference | 1.9582 |
-| GMD | SLE | reference | 0.3154 |
-| HKD | SLE | reference | 2.9102 |
-| JPY | SLE | reference | 0.1447 |
-| KWD | SLE | reference | 78.6919 |
-| LRD | SLE | reference | 0.1338 |
-| NGN | SLE | reference | 0.0168 |
-| NOK | SLE | reference | 2.4518 |
-| SAR | SLE | reference | 6.0825 |
-| SEK | SLE | reference | 2.293 |
-| USD | SLE | reference | 22.8285 |
-| XDR | SLE | reference | 30.9281 |
-| XOF | SLE | reference | 0.0389 |
-| ZAR | SLE | reference | 1.3692 |
+| GMD | SLE | reference | 0.3108 |
+| HKD | SLE | reference | 2.9073 |
+| JPY | SLE | reference | 0.1446 |
+| KWD | SLE | reference | 78.4451 |
+| LRD | SLE | reference | 0.1339 |
+| NGN | SLE | reference | 0.0167 |
+| NOK | SLE | reference | 2.4439 |
+| SAR | SLE | reference | 6.0771 |
+| SEK | SLE | reference | 2.2922 |
+| USD | SLE | reference | 22.8074 |
+| XDR | SLE | reference | 30.8493 |
+| XOF | SLE | reference | 0.0391 |
+| ZAR | SLE | reference | 1.3695 |
 
 </details>
 
