@@ -47,33 +47,33 @@ The image is rendered live from the keyless endpoint above, so it follows the ce
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-10-28 by Bank of Sierra Leone — 23 rates. Updated 2026-10-29.</summary>
+<summary>Table as text: published 2026-10-29 by Bank of Sierra Leone — 23 rates. Updated 2026-10-29.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AED | SLE | reference | 6.21 |
-| AUD | SLE | reference | 16.0439 |
-| CAD | SLE | reference | 16.2251 |
-| CHF | SLE | reference | 27.4679 |
-| CNY | SLE | reference | 3.4213 |
-| CVE | SLE | reference | 0.2328 |
-| DKK | SLE | reference | 3.3942 |
-| EUR | SLE | reference | 25.3705 |
-| GBP | SLE | reference | 30.319 |
-| GHS | SLE | reference | 1.9582 |
-| GMD | SLE | reference | 0.3108 |
-| HKD | SLE | reference | 2.9073 |
+| AED | SLE | reference | 6.2169 |
+| AUD | SLE | reference | 16.0602 |
+| CAD | SLE | reference | 16.3173 |
+| CHF | SLE | reference | 27.5629 |
+| CNY | SLE | reference | 3.4275 |
+| CVE | SLE | reference | 0.2308 |
+| DKK | SLE | reference | 3.4015 |
+| EUR | SLE | reference | 25.4233 |
+| GBP | SLE | reference | 30.377 |
+| GHS | SLE | reference | 1.9579 |
+| GMD | SLE | reference | 0.315 |
+| HKD | SLE | reference | 2.91 |
 | JPY | SLE | reference | 0.1446 |
-| KWD | SLE | reference | 78.4451 |
-| LRD | SLE | reference | 0.1339 |
+| KWD | SLE | reference | 78.5951 |
+| LRD | SLE | reference | 0.134 |
 | NGN | SLE | reference | 0.0167 |
-| NOK | SLE | reference | 2.4439 |
-| SAR | SLE | reference | 6.0771 |
-| SEK | SLE | reference | 2.2922 |
-| USD | SLE | reference | 22.8074 |
-| XDR | SLE | reference | 30.8493 |
-| XOF | SLE | reference | 0.0391 |
-| ZAR | SLE | reference | 1.3695 |
+| NOK | SLE | reference | 2.4554 |
+| SAR | SLE | reference | 6.0839 |
+| SEK | SLE | reference | 2.3069 |
+| USD | SLE | reference | 22.833 |
+| XDR | SLE | reference | 30.8656 |
+| XOF | SLE | reference | 0.0388 |
+| ZAR | SLE | reference | 1.371 |
 
 </details>
 
