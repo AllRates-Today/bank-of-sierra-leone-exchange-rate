@@ -47,7 +47,7 @@ The image is rendered live from the keyless endpoint above, so it follows the ce
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-10-28 by Bank of Sierra Leone — 23 rates. Updated 2026-10-28.</summary>
+<summary>Table as text: published 2026-10-28 by Bank of Sierra Leone — 23 rates. Updated 2026-10-29.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
@@ -238,6 +238,7 @@ The Bank of Sierra Leone publishes a daily reference rate for the new leone (SLE
 
 - Publisher's own page: [Daily Exchange Rates](https://bsl.gov.sl/WAMZ_Exchange_Rates.html) · [bsl.gov.sl](https://bsl.gov.sl)
 - Publication: every business day; the exact schedule, freshness status and any current delay are on the [Bank of Sierra Leone rates page](https://allratestoday.com/central-bank-rates-api/bsl/)
+- In the API: usually by **17:20 UTC** (measured over the last 10 publications). Schedule a sync at or after that time and retry hourly until `rate_date` moves; every response carries the same figure as `available_by_utc` — see [when to poll](https://allratestoday.com/docs/#when-to-poll)
 - Values are stored unmodified, with the publisher's own `rate_date` on every row — see the [methodology](https://allratestoday.com/official-rates-methodology/)
 
 ## 🧭 Reading the numbers
