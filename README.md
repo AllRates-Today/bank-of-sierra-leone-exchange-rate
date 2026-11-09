@@ -32,33 +32,33 @@ The image is rendered live from the keyless endpoint, so it follows the central 
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-11-06 by Bank of Sierra Leone — 23 rates. Updated 2026-11-06.</summary>
+<summary>Table as text: published 2026-11-09 by Bank of Sierra Leone — 23 rates. Updated 2026-11-09.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AED | SLE | reference | 6.2235 |
-| AUD | SLE | reference | 15.7222 |
-| CAD | SLE | reference | 16.2443 |
-| CHF | SLE | reference | 27.9439 |
-| CNY | SLE | reference | 3.4268 |
-| CVE | SLE | reference | 0.2336 |
-| DKK | SLE | reference | 3.42 |
-| EUR | SLE | reference | 25.5635 |
-| GBP | SLE | reference | 30.6237 |
-| GHS | SLE | reference | 1.9604 |
-| GMD | SLE | reference | 0.3188 |
-| HKD | SLE | reference | 2.9154 |
+| AED | SLE | reference | 6.2251 |
+| AUD | SLE | reference | 15.7673 |
+| CAD | SLE | reference | 16.2332 |
+| CHF | SLE | reference | 27.9323 |
+| CNY | SLE | reference | 3.426 |
+| CVE | SLE | reference | 0.2326 |
+| DKK | SLE | reference | 3.4214 |
+| EUR | SLE | reference | 25.5764 |
+| GBP | SLE | reference | 30.6571 |
+| GHS | SLE | reference | 1.9596 |
+| GMD | SLE | reference | 0.3239 |
+| HKD | SLE | reference | 2.9155 |
 | JPY | SLE | reference | 0.1446 |
-| KWD | SLE | reference | 79.2335 |
-| LRD | SLE | reference | 0.1342 |
-| NGN | SLE | reference | 0.017 |
-| NOK | SLE | reference | 2.4372 |
-| SAR | SLE | reference | 6.0889 |
-| SEK | SLE | reference | 2.3165 |
-| USD | SLE | reference | 22.8578 |
-| XDR | SLE | reference | 31.0043 |
-| XOF | SLE | reference | 0.0393 |
-| ZAR | SLE | reference | 1.3854 |
+| KWD | SLE | reference | 79.3199 |
+| LRD | SLE | reference | 0.1341 |
+| NGN | SLE | reference | 0.0169 |
+| NOK | SLE | reference | 2.4308 |
+| SAR | SLE | reference | 6.091 |
+| SEK | SLE | reference | 2.3223 |
+| USD | SLE | reference | 22.8631 |
+| XDR | SLE | reference | 30.9544 |
+| XOF | SLE | reference | 0.0391 |
+| ZAR | SLE | reference | 1.3874 |
 
 </details>
 
