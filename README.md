@@ -32,33 +32,33 @@ The image is rendered live from the keyless endpoint, so it follows the central 
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-11-13 by Bank of Sierra Leone — 23 rates. Updated 2026-11-15.</summary>
+<summary>Table as text: published 2026-11-16 by Bank of Sierra Leone — 23 rates. Updated 2026-11-16.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AED | SLE | reference | 6.2254 |
-| AUD | SLE | reference | 15.5393 |
-| CAD | SLE | reference | 16.0434 |
-| CHF | SLE | reference | 27.335 |
-| CNY | SLE | reference | 3.4279 |
-| CVE | SLE | reference | 0.2309 |
-| DKK | SLE | reference | 3.3833 |
-| EUR | SLE | reference | 25.2929 |
-| GBP | SLE | reference | 30.2667 |
-| GHS | SLE | reference | 1.9588 |
-| GMD | SLE | reference | 0.3177 |
-| HKD | SLE | reference | 2.9144 |
-| JPY | SLE | reference | 0.143 |
-| KWD | SLE | reference | 78.3097 |
+| AED | SLE | reference | 6.2209 |
+| AUD | SLE | reference | 15.4403 |
+| CAD | SLE | reference | 16.0019 |
+| CHF | SLE | reference | 27.207 |
+| CNY | SLE | reference | 3.4266 |
+| CVE | SLE | reference | 0.2298 |
+| DKK | SLE | reference | 3.3666 |
+| EUR | SLE | reference | 25.1682 |
+| GBP | SLE | reference | 30.178 |
+| GHS | SLE | reference | 1.953 |
+| GMD | SLE | reference | 0.3142 |
+| HKD | SLE | reference | 2.912 |
+| JPY | SLE | reference | 0.1433 |
+| KWD | SLE | reference | 78.0802 |
 | LRD | SLE | reference | 0.1345 |
-| NGN | SLE | reference | 0.0168 |
-| NOK | SLE | reference | 2.396 |
-| SAR | SLE | reference | 6.0928 |
-| SEK | SLE | reference | 2.2786 |
-| USD | SLE | reference | 22.8661 |
-| XDR | SLE | reference | 30.8532 |
-| XOF | SLE | reference | 0.0388 |
-| ZAR | SLE | reference | 1.3566 |
+| NGN | SLE | reference | 0.0169 |
+| NOK | SLE | reference | 2.3852 |
+| SAR | SLE | reference | 6.0883 |
+| SEK | SLE | reference | 2.2666 |
+| USD | SLE | reference | 22.8474 |
+| XDR | SLE | reference | 30.78 |
+| XOF | SLE | reference | 0.0386 |
+| ZAR | SLE | reference | 1.3468 |
 
 </details>
 
