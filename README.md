@@ -32,33 +32,33 @@ The image is rendered live from the keyless endpoint, so it follows the central 
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-11-18 by Bank of Sierra Leone — 23 rates. Updated 2026-11-18.</summary>
+<summary>Table as text: published 2026-11-19 by Bank of Sierra Leone — 23 rates. Updated 2026-11-19.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AED | SLE | reference | 6.2298 |
-| AUD | SLE | reference | 15.3847 |
-| CAD | SLE | reference | 15.9719 |
-| CHF | SLE | reference | 27.1881 |
-| CNY | SLE | reference | 3.4321 |
-| CVE | SLE | reference | 0.2278 |
-| DKK | SLE | reference | 3.3557 |
-| EUR | SLE | reference | 25.0828 |
-| GBP | SLE | reference | 30.0918 |
-| GHS | SLE | reference | 1.9456 |
-| GMD | SLE | reference | 0.3146 |
-| HKD | SLE | reference | 2.9163 |
-| JPY | SLE | reference | 0.1438 |
-| KWD | SLE | reference | 77.8571 |
-| LRD | SLE | reference | 0.136 |
-| NGN | SLE | reference | 0.0169 |
-| NOK | SLE | reference | 2.3588 |
-| SAR | SLE | reference | 6.0984 |
-| SEK | SLE | reference | 2.252 |
-| USD | SLE | reference | 22.88 |
-| XDR | SLE | reference | 30.7736 |
+| AED | SLE | reference | 6.2269 |
+| AUD | SLE | reference | 15.3463 |
+| CAD | SLE | reference | 15.9833 |
+| CHF | SLE | reference | 27.1569 |
+| CNY | SLE | reference | 3.431 |
+| CVE | SLE | reference | 0.2276 |
+| DKK | SLE | reference | 3.3644 |
+| EUR | SLE | reference | 25.1484 |
+| GBP | SLE | reference | 30.0926 |
+| GHS | SLE | reference | 1.9423 |
+| GMD | SLE | reference | 0.3152 |
+| HKD | SLE | reference | 2.9149 |
+| JPY | SLE | reference | 0.1431 |
+| KWD | SLE | reference | 77.8592 |
+| LRD | SLE | reference | 0.1362 |
+| NGN | SLE | reference | 0.0168 |
+| NOK | SLE | reference | 2.3627 |
+| SAR | SLE | reference | 6.0963 |
+| SEK | SLE | reference | 2.2545 |
+| USD | SLE | reference | 22.8693 |
+| XDR | SLE | reference | 30.7272 |
 | XOF | SLE | reference | 0.0383 |
-| ZAR | SLE | reference | 1.3408 |
+| ZAR | SLE | reference | 1.3241 |
 
 </details>
 
