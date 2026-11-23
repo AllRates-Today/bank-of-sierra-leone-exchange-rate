@@ -32,33 +32,33 @@ The image is rendered live from the keyless endpoint, so it follows the central 
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-11-20 by Bank of Sierra Leone — 23 rates. Updated 2026-11-20.</summary>
+<summary>Table as text: published 2026-11-23 by Bank of Sierra Leone — 23 rates. Updated 2026-11-23.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AED | SLE | reference | 6.2282 |
-| AUD | SLE | reference | 15.2416 |
-| CAD | SLE | reference | 15.9714 |
-| CHF | SLE | reference | 27.1426 |
-| CNY | SLE | reference | 3.4253 |
-| CVE | SLE | reference | 0.2276 |
-| DKK | SLE | reference | 3.3562 |
-| EUR | SLE | reference | 25.0854 |
-| GBP | SLE | reference | 29.9695 |
-| GHS | SLE | reference | 1.9423 |
-| GMD | SLE | reference | 0.3152 |
-| HKD | SLE | reference | 2.9186 |
-| JPY | SLE | reference | 0.1438 |
-| KWD | SLE | reference | 77.5407 |
-| LRD | SLE | reference | 0.1362 |
-| NGN | SLE | reference | 0.0168 |
-| NOK | SLE | reference | 2.3384 |
-| SAR | SLE | reference | 6.0971 |
-| SEK | SLE | reference | 2.2417 |
-| USD | SLE | reference | 22.8766 |
-| XDR | SLE | reference | 30.7553 |
+| AED | SLE | reference | 6.2287 |
+| AUD | SLE | reference | 15.2143 |
+| CAD | SLE | reference | 15.9729 |
+| CHF | SLE | reference | 27.2725 |
+| CNY | SLE | reference | 3.4326 |
+| CVE | SLE | reference | 0.228 |
+| DKK | SLE | reference | 3.3624 |
+| EUR | SLE | reference | 25.1339 |
+| GBP | SLE | reference | 30.0338 |
+| GHS | SLE | reference | 1.943 |
+| GMD | SLE | reference | 0.3094 |
+| HKD | SLE | reference | 2.9176 |
+| JPY | SLE | reference | 0.1437 |
+| KWD | SLE | reference | 77.7071 |
+| LRD | SLE | reference | 0.1364 |
+| NGN | SLE | reference | 0.0166 |
+| NOK | SLE | reference | 2.3446 |
+| SAR | SLE | reference | 6.0975 |
+| SEK | SLE | reference | 2.2422 |
+| USD | SLE | reference | 22.8768 |
+| XDR | SLE | reference | 30.719 |
 | XOF | SLE | reference | 0.0383 |
-| ZAR | SLE | reference | 1.3074 |
+| ZAR | SLE | reference | 1.3117 |
 
 </details>
 
